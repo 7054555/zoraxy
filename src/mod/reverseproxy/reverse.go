@@ -10,6 +10,7 @@ import (
 	"strings"
 	"sync"
 	"time"
+	_ "net/http/pprof"
 )
 
 var onExitFlushLoop func()
